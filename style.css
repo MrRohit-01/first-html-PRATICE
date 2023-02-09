@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+
+nav {
+height: 90px;
+background-color: black;
+
+    }
+.upp {
+    color: white;
+    display: inline;
+    padding: 0px 30px;
+    }
+
+.hhh1,.hhh2{
+    display: inline-block;
+    font-size: 30px;
+    width: 50%;
+    height: 500px;
+    margin-left: 0;
+    font-family: 'Itim', cursive;
+    }
+
+.hhh1 {
+    background-color: red;
+    /* font-size: 40px; */
+    }
+
+.hhh2 {
+    background-color: green;
+
+    }
+   
+    #r10 {
+        display: none;
+        color: blue;
+    }
+    #r20 {
+        visibility: hidden;}
+    #t33 {
+        text-transform: uppercase;
+    }
