@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        *{
+            padding: 0;margin: 0;
+        }
+        .container {
+            background-color: red;
+            height: 40px;
+            width: 40px;
+            animation:rohit 3s linear 1s infinite running normal;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        }
+        .container1 {
+            background-color: red;
+            height: 40px;
+            width: 40px;
+           transition: all;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        }
+        @keyframes rohit {
+            0%
+            {width: 40px;
+            height: 40px;
+        }
+            100%{
+                width: 100vw;
+                height: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="container"></div>
+    <div class="container1"></div>
+</body>
+</html>

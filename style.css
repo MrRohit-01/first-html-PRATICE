@@ -1,44 +1,102 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    }
+}
 
 nav {
-height: 90px;
-background-color: black;
+    height: 90px;
+    background-color: black;
 
-    }
+}
+
 .upp {
     color: white;
     display: inline;
     padding: 0px 30px;
-    }
+}
 
-.hhh1,.hhh2{
+.hhh1,
+.hhh2 {
     display: inline-block;
     font-size: 30px;
     width: 50%;
     height: 500px;
     margin-left: 0;
     font-family: 'Itim', cursive;
-    }
+}
 
 .hhh1 {
     background-color: red;
     /* font-size: 40px; */
-    }
+}
 
 .hhh2 {
     background-color: green;
 
-    }
-   
-    #r10 {
-        display: none;
-        color: blue;
-    }
-    #r20 {
-        visibility: hidden;}
-    #t33 {
-        text-transform: uppercase;
-    }
+}
+
+#r10 {
+    display: none;
+    color: blue;
+}
+
+#r20 {
+    visibility: hidden;
+}
+
+#t33 {
+    text-transform: uppercase;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.p12 {
+    height: 200px;
+    width: 200px;
+    float: left;
+    background-color: brown;
+}
+
+.o {
+    height: 200px;
+    width: 200px;
+    float: right;
+    clear: left;
+    background-color: rgb(34, 213, 18);
+}
+
+.y {
+    height: 200px;
+    width: 200px;
+    float: right;
+    clear: left;
+    background-color: rgb(222, 195, 25);
+}
+
+.t {
+    height: 200px;
+    width: 200px;
+    float: right;
+    clear: left;
+    background-color: rgb(13, 50, 216);
+}
+
+.navbar {
+    background-color: black;
+    color: aliceblue;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+li {
+    display: inline;
+    padding: 40px;
+    font-size: 22px;
+    image-resolution: 30*40;
+}
