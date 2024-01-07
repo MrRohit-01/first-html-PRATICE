@@ -48,20 +48,15 @@ nav {
     text-transform: uppercase;
 }
 
-.one {
-    display: flex;
-    flex-direction: column;
-    float: left;
-}
 
-.p12 {
+.p1 {
     height: 200px;
     width: 200px;
     float: left;
     background-color: brown;
 }
 
-.o {
+.p2{
     height: 200px;
     width: 200px;
     float: right;
@@ -69,7 +64,7 @@ nav {
     background-color: rgb(34, 213, 18);
 }
 
-.y {
+.p3 {
     height: 200px;
     width: 200px;
     float: right;
@@ -77,7 +72,7 @@ nav {
     background-color: rgb(222, 195, 25);
 }
 
-.t {
+.p4{
     height: 200px;
     width: 200px;
     float: right;
@@ -100,3 +95,5 @@ li {
     font-size: 22px;
     image-resolution: 30*40;
 }
+
+
